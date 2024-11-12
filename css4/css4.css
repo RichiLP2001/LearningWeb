@@ -1,0 +1,53 @@
+.div {
+    width: 250px;
+    border: 1px solid black;
+}
+
+.child {
+    background-color: green;
+
+}
+
+#container {
+    padding: 15px;
+    background-color: chocolate;
+    color:white;
+
+}
+
+
+#target {
+    position: relative;
+        /*da la opcion de mover el 
+        recuadro segun le indicamos
+         dentro del contenedor relativo
+          mas cercano*/    
+    right: 5px;
+     /*mover el recuadro con id target hacia
+      la derecha*/
+    top: -5px;
+        /*mover 5 pixeles a hacia arriba*/
+}
+
+
+
+
+/*flotacion*/
+.img1 {
+    float: left;
+}
+.img2 {
+    float: right;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.clear {
+    clear: right;
+}
