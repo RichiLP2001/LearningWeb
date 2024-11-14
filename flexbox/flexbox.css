@@ -1,0 +1,24 @@
+.container {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    /*para que se pongan en columna vertical Y EN REVERSA-->*/
+        /*flex-direction: column-reverse;*/
+    flex-direction: row;
+        /* flex-wrap: wrap; LOS ORGANIZA EN COLUMNAS Y FILAS */
+    /*justify content: center --> 
+    para definir donde se localizara la ultima casilla --> END */
+        justify-content: start;
+    height: 5OOpx;
+    align-items: flex-start;
+    /* separacion entre div de 15px a lo alto 
+    y de 30px entre derecha e izquierda*/
+        gap: 15px 30px;
+
+}
+
+.child {
+    border: 1px dashed black;
+    width: 200px;
+}

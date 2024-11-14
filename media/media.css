@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+}
+
+/*esta se activa solo a partir
+ de los 800 px en el tamaño del h1*/
+@media screen and (min-width: 800px) {
+
+    h1 {
+        color: blue;
+    }
+}
+/*esta se activa solo si el ancho de 
+la pantalla es de al menos 300px*/
+@media screen and (min-width: 300px) {
+
+    h1 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (orientation: portrait){
+    body {
+        background-color: beige;
+    }
+}
+
+@media print {
+
+    nav {
+        display:none;
+    }
+}
