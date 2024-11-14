@@ -1,0 +1,32 @@
+* {
+    border: 1px solid white;
+
+}
+
+body {
+    background-image:url("https: //media.istockphoto.com/id/1160631768/es/foto/hornear-y-cocinar-ingredientes-sobre-fondo-gris-brillante.jpg?s=1024x1024&w=is&k=20&c=kBOfYyYMJfncSr1C6z5v8ef0MZUc_Jy2hcVtqMLYCwQ=.jpg?s	");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    color: rgba(0, 0, 0, 0.663);
+    background-color: rgb(236, 80, 28);
+    border-radius: 30rch;
+
+}
+
+h2 {
+    color: rgb(38, 30, 106);
+
+}
+
+div li {
+    color:rgb(13, 13, 81);
+    background-color: blanchedalmond;
+    border-radius: 50ch;
+    position: relative;
+    right: -50px;
+}
+
